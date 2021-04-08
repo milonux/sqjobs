@@ -1,0 +1,46 @@
+/*
+	Bluescheme
+	Author: Sk.Melon
+	version: 0.0.1
+*/
+
+
+
+
+// BASE - Base styles, variables, mixins, etc
+
+
+
+
+
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/base';
+@import 'partials/graphik';
+@import 'partials/extra';
+
+@import 'partials/utilities';
+@import 'partials/components';
+@import 'partials/buttons';
+@import 'partials/nav';
+@import 'partials/section';
+@import 'partials/hero';
+@import 'partials/home';
+@import 'partials/page-hero';
+
+@import 'partials/news';
+@import 'partials/news-details';
+@import 'partials/team';
+@import 'partials/careers';
+@import 'partials/business';
+@import 'partials/contact';
+
+
+@import 'partials/about';
+@import 'partials/faq';
+@import 'partials/partners';
+
+
+@import 'partials/content';
+@import 'partials/home2';
+@import 'partials/footer';

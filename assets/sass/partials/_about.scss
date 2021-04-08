@@ -1,0 +1,261 @@
+.exe-module {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	li {
+		+ li {
+			margin-top: 2rem;
+		}
+	}
+
+	h3 {
+		margin-bottom: 1.25rem;
+	}
+	p {
+		margin-bottom: 1rem;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.chart-intro-wrap {
+	position: relative;
+	img {
+		width: 260px;
+		height: 260px;
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+.chart-intro {
+	position: relative;
+	margin-left: 53px;
+	text-align: left;
+	line-height: 1.1;
+	font-size: 7rem;
+	color: $color-primary;
+	.ci-currency {
+		font-size: 2rem;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 5px;
+	}
+	.ci-title {
+		display: inline-block;
+		margin-left: -2.5rem;
+	}
+}
+.ab-insection {
+	position: relative;
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+	border-bottom: 1px solid hsla(0,0%,51%,.12);
+	&.-last {
+		border-bottom: 0;
+		padding-bottom: 0;
+	}
+	// &:after {
+	// 	position: absolute;
+	//     content: "";
+	//     bottom: 0;
+	//     left: 0;
+	//     width: 100%;
+	//     height: 1px;
+	//     background-color: hsla(0,0%,51%,.4);
+	//     opacity: .3;
+	// }
+}
+
+
+.c-border-right {
+	border-right: 1px solid hsla(0,0%,51%,.3);
+}
+.c-border-left {
+	border-left: 1px solid hsla(0,0%,51%,.3);
+}
+.financed-lable {
+	margin-bottom: 30px;
+	font-size: 12px;
+	.fl-image, .fl-count {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.fl-image {
+		margin-right: 2rem;
+	}
+}
+
+.ab-relations {
+	
+	.rel-counter {
+		font-size: 5rem;
+		line-height: 1.2;
+		color: $color-primary;
+	}
+	.rel-currency {
+		font-size: 1rem;
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+.ab-total-debt {
+	max-width: 320px;
+}
+.ab-total-debt-text {
+	font-size: 1.5rem;
+	line-height: 1.3;
+	color: $color-heading;
+	>span {
+		color: $color-primary;
+	}
+}
+.ab-total-debt-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	max-width: 390px;
+	li {
+		border-bottom: 1px solid $border-color;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.dl-count, .dl-text {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.dl-count {
+		width: 20%;
+		color: $color-heading;
+	}
+}
+.more-dash-top {
+	display: inline-block;
+	margin-top: 30px;
+	position: relative;
+	padding-top: 30px;
+	&:before {
+		content: " ";
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 40px;
+		height: 1px;
+		background-color: $color-heading;
+	}
+	&.-dash-center {
+		text-align: center;
+		&:before {
+			left: 50%;
+			-webkit-transform: -webkit-translateX(-50%);
+			transform: translateX(-50%);
+		}
+	}
+}
+
+.about-fact-transaction {
+	.ab-financed {
+		border-right: none;
+		min-height: auto;
+	}
+	.ab-relations {
+		border-right: 1px solid hsla(0,0%,51%,.3);
+	}
+}
+.about-fact-transaction {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	max-width: 590px;
+	text-align: center;
+	-webkit-transform: -webkit-translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.about-fact-team {
+	position: relative;
+}
+.about-fact-team-content {
+	position: absolute;
+	top: 7rem;
+	left: 12rem;
+}
+
+
+// New 
+.section-download {
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	&:before {
+		content: " ";
+		width: 100%;
+		height: 100%;
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		background-color: darken($color-primary, 30%);
+		@include opacity(.6)
+	}
+}
+.card-module {
+	margin-bottom: 30px;
+	.card-content {
+		padding-top: 1.5rem;
+	}
+	.card-title {
+		font-size: 1.25rem;
+	}
+}
+.c-responsibility {
+	.card-title {
+		max-width: 250px;
+		margin-left: auto;
+		margin-right: auto;
+		line-height: 1.3;
+	}
+}
+.btn-link-more {
+	font-size: 14px;
+	font-weight: 600;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.card-figure {
+	.card-math {
+		color: $color-primary;
+	}
+	.cm-number {
+		font-size: 6.5rem;
+		line-height: 1;
+		font-weight: 900;
+		letter-spacing: -0.01em;
+	}
+	.cm-currency {
+		font-size: 1.5rem;
+		font-weight: 600;
+	}
+	.card-content {
+		padding-top: .5rem;
+	}
+}
+.c-governance {
+	background-color: #f6f6f7;
+	height: 100%;
+	.card-content {
+		padding: 1.5rem;
+		p {
+			min-height: 125px;
+		}
+	}
+}

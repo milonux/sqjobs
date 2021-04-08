@@ -1,0 +1,118 @@
+
+/* BUTTON */
+
+.btn {
+  &:active,
+  &.active {
+    &:focus,
+    &.focus {
+      
+    }
+  }
+
+  &:hover,
+  &:focus,
+  &.focus {
+    text-decoration: none;
+  }
+
+  &.btn-square {
+    @include border-radius(0);
+  }
+  &.btn-round {
+    @include border-radius(10em);
+  }
+
+}
+
+
+.btn-site {
+  padding: .75rem 1rem;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .063rem;
+}
+.btn-small {
+  font-size: $font-size-base - 2px;
+  padding: 3px 12px;
+}
+.btn-large {
+    padding: 10px 16px;
+}
+.btn-huge {
+    padding: 15px 20px;
+}
+.btn-afixed {
+    min-width: 220px;
+}
+.btn-shadow {
+    -webkit-box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+	@include base-button-variant(#fff, $color-primary, $color-primary);
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(131, 173, 128, 0.5);
+  }
+}
+.btn-success {
+	@include base-button-variant(#fff, $color-success, $color-success);
+}
+.btn-info {
+	@include base-button-variant(#fff, $color-info, $color-info);
+}
+.btn-warning {
+	@include base-button-variant(#fff, $color-warning, $color-warning);
+}
+.btn-danger {
+	@include base-button-variant(#fff, $color-danger, $color-danger);
+}
+.btn-white {
+  @include base-button-variant(#333, #fff, #fff);
+}
+
+.btn-gray {
+	@include base-button-variant($color-gray-light, #f1f1f1, #f1f1f1);
+}
+
+.btn-facebook {
+  @include base-button-variant(#fff, $brand-facebook, $brand-facebook);
+}
+.btn-twitter {
+  @include base-button-variant(#fff, $brand-twitter, $brand-twitter);
+}
+.btn-linkedin {
+  @include base-button-variant(#fff, $brand-linkedin, $brand-linkedin);
+}
+
+.btn-outline-primary {
+  @include button-outline-variant($color-primary, $color-primary, $color-primary);
+}
+
+.btn-stroked {
+  &.btn-primary {
+    @include base-button-variant($color-primary, transparent, $color-primary);
+  }
+  &.btn-success {
+    @include base-button-variant($color-success, transparent, $color-success);
+  }
+  &.btn-info {
+    @include base-button-variant($color-info, transparent, $color-info);
+  }
+  &.btn-warning {
+    @include base-button-variant($color-warning, transparent, $color-warning);
+  }
+  &.btn-danger {
+    @include base-button-variant($color-danger, transparent, $color-danger);
+  }
+  &.btn-white {
+    @include base-button-variant(#333, transparent, #fff);
+  }
+
+  &.btn-facebook {
+    @include base-button-variant($brand-facebook, transparent, $brand-facebook);
+  }
+}

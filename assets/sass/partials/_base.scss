@@ -1,0 +1,66 @@
+// html, body {
+//     height: 100%;
+// }
+body {
+  background: #fff;
+  @include base-font-variant($font-family-base, $font-size-base, $font-weight-base, $font-color-base, $line-height-base);
+}
+
+@media (max-width: 699px) {
+    html {
+        font-size: 14px
+    }
+}
+@media (min-width: 700px) and (max-width: 1199px) {
+    html {
+        font-size: 15px
+    }
+}
+@media (min-width: 700px) and (max-width: 749px) {
+    html {
+        font-size: 14px
+    }
+}
+@media (min-width: 1200px) and (max-width: 1599px) {
+    html {
+        font-size: 16px
+    }
+}
+@media (min-width: 1600px) and (max-width: 2099px) {
+    html {
+        font-size: 18px
+    }
+}
+@media (min-width: 2100px) and (max-width: 2399px) {
+    html {
+        font-size: 20px
+    }
+}
+@media (min-width: 2400px) and (max-width: 2699px) {
+    html {
+        font-size: 22px
+    }
+}
+@media (min-width: 2700px) {
+    html {
+        font-size: 24px
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: $color-gray-base;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+  color: $color-linked;
+
+  &:hover, &:focus {
+    text-decoration: none;
+    color: $color-linked-hover;
+  }
+}

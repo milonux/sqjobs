@@ -1,0 +1,45 @@
+/* SECTION
+*************************************************** */
+.section {
+	padding: 6rem 0;
+}
+.section-heading {
+	font-size: 3rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
+.section-header {
+	margin-bottom: 3rem;
+	.section-title {
+		font-size: 2.5rem;
+		margin-bottom: 1rem;
+	}
+	p {
+		font-size: 1.125rem;
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+.main-container {
+	position: relative;
+	min-height: 100%;
+}
+.container {
+    &.container-large {
+        @include breakpoint($large-min){
+            width: 100%;
+            max-width: 1440px;
+        }
+    }
+}
+
+.row-flex {
+	margin-left: -10px;
+	margin-right: -10px;
+	[class*="col-"] {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+

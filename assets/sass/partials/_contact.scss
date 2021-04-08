@@ -1,0 +1,60 @@
+.contact-card {
+    margin-top: 30px;
+    border: 1px solid #dbdfe0;
+    border-radius: 5px;
+    display: block;
+    padding: 60px 30px 30px;
+    position: relative;
+    text-align: center;
+    color: $color-text;
+    &:before {
+        background: #fff;
+        content: "";
+        display: block;
+        height: 69px;
+        left: 50%;
+        margin-left: -57px;
+        position: absolute;
+        top: -34.5px;
+        width: 114px;
+    }
+    &.cc-sale {
+        &:before {
+            background-image: url("../images/contact/sales.png");
+            background-position: 50% 0;
+            background-repeat: no-repeat;
+        }
+    }
+    &.cc-support {
+        &:before {
+            background-image: url("../images/contact/support.png");
+            background-position: 50% 2px;
+            background-repeat: no-repeat;
+        }
+    }
+    &.cc-media {
+        &:before {
+            background-image: url("../images/contact/media.png");
+            background-position: 50% 6px;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+.brick {
+    &.contact-hero {
+        min-height: 600px;
+    }
+}
+
+
+.contact-footer-bar {
+    margin-top: 60px;
+}
+.contact-foo {
+    text-align: center;
+    h4 {
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}

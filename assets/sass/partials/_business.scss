@@ -1,0 +1,31 @@
+
+.brick {
+    &.business-hero {
+        background-color: #f1f1f1;
+        min-height: 800px;
+    }
+}
+
+.business-navbar {
+    background-color: #e1e1e1;
+    // border-top: 1px solid #e1e1e1;
+    // border-bottom: 1px solid #e1e1e1;
+}
+
+.nav {
+    &.nav-business {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
+        li {
+            display: inline-block;
+
+            a {
+                display: inline-block;
+                padding: 1rem 1.5rem;
+            }
+        }
+    }
+}

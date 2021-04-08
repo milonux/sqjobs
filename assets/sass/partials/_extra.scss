@@ -1,0 +1,69 @@
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url(../fonts/maisonNeue/hinted-MaisonNeue-Medium.eot);
+    src: url(../fonts/hinted-MaisonNeue-Mediumd41d.eot?#iefix) format("embedded-opentype"), url(../fonts/maisonNeue/hinted-MaisonNeue-Medium.html) format("woff2"), url(../fonts/maisonNeue/hinted-MaisonNeue-Medium.woff) format("woff"), url(../fonts/maisonNeue/hinted-MaisonNeue-Medium.ttf) format("truetype"), url(../fonts/maisonNeue/hinted-MaisonNeue-Medium.svg#MaisonNeue-Medium) format("svg");
+    font-weight: 500;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Maison Neue';
+    src: url(../fonts/maisonNeue/hinted-MaisonNeue-Bold.eot);
+    src: url(../fonts/maisonNeue/hinted-MaisonNeue-Boldd41d.eot?#iefix) format("embedded-opentype"), url(../fonts/maisonNeue/hinted-MaisonNeue-Bold.html) format("woff2"), url(../fonts/maisonNeue/hinted-MaisonNeue-Bold.woff) format("woff"), url(../fonts/maisonNeue/hinted-MaisonNeue-Bold.ttf) format("truetype"), url(../fonts/maisonNeue/hinted-MaisonNeue-Bold.svg#MaisonNeue-Bold) format("svg");
+    font-weight: 700;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Maison Neue';
+    src: url(../fonts/maisonNeue/hinted-MaisonNeue-Light.eot);
+    src: url(../fonts/maisonNeue/hinted-MaisonNeue-Lightd41d.eot?#iefix) format("embedded-opentype"), url(../fonts/maisonNeue/hinted-MaisonNeue-Light.html) format("woff2"), url(../fonts/maisonNeue/hinted-MaisonNeue-Light.woff) format("woff"), url(../fonts/maisonNeue/hinted-MaisonNeue-Light.ttf) format("truetype"), url(../fonts/maisonNeue/hinted-MaisonNeue-Light.svg#MaisonNeue-Light) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Maison Neue';
+    src: url(../fonts/maisonNeue/hinted-MaisonNeue-LightItalic.eot);
+    src: url(../fonts/maisonNeue/hinted-MaisonNeue-LightItalicd41d.eot?#iefix) format("embedded-opentype"), url(../fonts/maisonNeue/hinted-MaisonNeue-LightItalic.html) format("woff2"), url(../fonts/maisonNeue/hinted-MaisonNeue-LightItalic.woff) format("woff"), url(../fonts/maisonNeue/hinted-MaisonNeue-LightItalic.ttf) format("truetype"), url(../fonts/maisonNeue/hinted-MaisonNeue-LightItalic.svg#MaisonNeue-LightItalic) format("svg");
+    font-weight: 400;
+    font-style: italic
+}
+
+
+@font-face {
+    font-family: 'Akurrat';
+    src: url(../fonts/extra/AkkRg.eot);
+    src: url(../fonts/extra/AkkRgd41d.eot?#iefix) format('embedded-opentype'), url(../fonts/extra/AkkRg.woff) format('woff'), url(../fonts/extra/AkkRg.ttf) format('truetype'), url(../fonts/extra/AkkRg.svg#AkkRg) format('svg');
+    font-weight: light;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Din';
+    src: url(../fonts/extra/DINNextLTPro-MediumCond.eot);
+    src: url(../fonts/extra/DINNextLTPro-MediumCondd41d.eot?#iefix) format('embedded-opentype'), url(../fonts/extra/DINNextLTPro-MediumCond.woff) format('woff'), url(../fonts/extra/DINNextLTPro-MediumCond.ttf) format('truetype'), url(../fonts/extra/DINNextLTPro-MediumCond.svg#DINNextLTPro-MediumCond) format('svg');
+    font-weight: light;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Lyon Display Regular';
+    src: url(../fonts/extra/LyonDisplay-Regular.eot);
+    src: url(../fonts/extra/LyonDisplay-Regulard41d.eot?#iefix) format('embedded-opentype'), url(../fonts/extra/LyonDisplay-Regular.woff) format('woff'), url(../fonts/extra/LyonDisplay-Regular.ttf) format('truetype'), url(../fonts/extra/LyonDisplay-Regular.svg#LyonDisplay-Regular) format('svg');
+    font-weight: light;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Lyon Display Italic';
+    src: url(../fonts/extra/LyonDisplay-RegularItalic.eot);
+    src: url(../fonts/extra/LyonDisplay-RegularItalicd41d.eot?#iefix) format('embedded-opentype'), url(../fonts/extra/LyonDisplay-RegularItalic.woff) format('woff'), url(../fonts/extra/LyonDisplay-RegularItalic.ttf) format('truetype'), url(../fonts/extra/LyonDisplay-RegularItalic.svg#LyonDisplay-RegularItalic) format('svg');
+    font-weight: light;
+    font-style: normal
+}
+
+
+$ff-akurrat: 'Akurrat';
+$ff-din: 'Din';
+$ff-lyon-regular: 'Lyon Display Regular';
+$ff-lyon-regular-itlic: 'Lyon Display Italic';
+
+.ff-akurrat { font-family: $ff-akurrat }
+.ff-din { font-family: $ff-din }
+.ff-lyon { font-family: $ff-lyon-regular }
